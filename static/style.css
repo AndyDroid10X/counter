@@ -1,5 +1,5 @@
 .btn {
-  height: 100px;
+  height: 100%;
   margin: 6px;
   padding: 6px 12px;
   text-align: center;
@@ -10,6 +10,7 @@
   border-color: green;
   width: 100%;
   transition-duration: 0.4s;
+  font-size: 300%;
 }
 
 .btn:hover {
