@@ -3,10 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Days since</title>
+    <link href="/static/style.css" rel="stylesheet" type="text/css">
 </head>
-<body style="background-color: yellow">
-    <h1 style="font-size: 500%; text-align: center; font-family: Ubuntu,serif">{{ d_since }} days since</h1>
-    <h1 style="font-size: 500%; text-align: center; font-family: Ubuntu,serif">{{ d_left }} days left</h1>
-    <h1 style="font-size: 500%; text-align: center; font-family: Ubuntu,serif">{{ d_in_year }} days in this year</h1>
+<body>
+    <form>
+        <div class="container">
+            <div class="center">
+                <button formaction="{{ url_for('since') }}" class="btn">Since</button>
+                <button formaction="{{ url_for('left') }}" class="btn">Left</button>
+                <button formaction="{{ url_for('diy') }}" class="btn">Days in year</button>
+            </div>
+        </div>
+    </form>
+
+    <p class="border-gradient border-gradient-purple">
+            {{ main_text}}
+    </p>
 </body>
 </html>
