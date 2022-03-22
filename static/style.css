@@ -1,6 +1,6 @@
 .btn {
   height: 100%;
-  margin: 6px;
+  margin: 13px;
   padding: 6px 12px;
   text-align: center;
   color: black;
@@ -21,6 +21,7 @@
 .container {
   height: 200px;
   position: relative;
+  font-size: 130%;
 }
 
 .center {
@@ -31,9 +32,9 @@
   transform: translateX(-50%);
 }
 
-.border-gradient {
+.text {
   height: 132px;
-  margin: 0px;
+  margin: 0;
   font-size: 72px;
   text-align: center;
   border-radius: 88px;
@@ -48,4 +49,3 @@
   display: inline;
  ;
 }
-
