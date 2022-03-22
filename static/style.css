@@ -1,0 +1,50 @@
+.btn {
+  height: 100px;
+  margin: 6px;
+  padding: 6px 12px;
+  text-align: center;
+  color: black;
+  background: white;
+  border-radius: 11px;
+  border-width: 7px;
+  border-color: green;
+  width: 100%;
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  background-color: green;
+  color: white
+}
+
+.container {
+  height: 200px;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.border-gradient {
+  height: 132px;
+  margin: 0px;
+  font-size: 49px;
+  text-align: center;
+  border-radius: 88px;
+  border: 16px solid green;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width:99%;
+  width:-moz-fit-content;
+  display: inline;
+ ;
+}
+
